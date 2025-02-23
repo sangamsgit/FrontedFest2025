@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWay</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" type="image/x-icon" href="Assets/imgs/favicon.jpg">
+<!-- <link rel="stylesheet" media="(max-width:1)" href="./responsive.css"> -->
+<body>
+    <navbar class="navbar">
+        <img src="./Assets/imgs/logo.png" class="logo" alt="logo">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">FAQ's</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="./Pages/login.html"><button class="login-btn">Login</button></a></li>
+            <li><a href="./Pages/signup.html"><button class="signup-btn">Sign Up</button></a></li>
+        </ul>
+    </navbar>
+    <section class="landing">
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./Assets/imgs/slider1.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./Assets/imgs/slider2.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="./Assets/imgs/slider3.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    </section>
+
+    <section class="services">
+        <h1>Our Services</h1>
+        <div class="service-container">
+            <div class="service">
+                <div class="service-img">
+                    <img src="./Assets/imgs/loadwallet.png" alt="finance">
+                </div>
+                    <h2>Load Wallet</h2>              
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="./Assets/imgs/sendmoney.png" alt="finance">
+                </div>
+                <h2>Send Money</h2>
+                
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="./Assets/imgs/topup.png" alt="finance">
+                </div>
+                <h2>Topup</h2>
+                
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="./Assets/imgs/institution.png" alt="finance">
+                </div>
+                <h2>Institutions</h2>
+                
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="./Assets/imgs/gov.png" alt="finance">
+                </div>
+                <h2>Government</h2>                
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img src="./Assets/imgs/movie.png" alt="finance">
+                </div>
+                <h2>Movie</h2>                
+            </div>
+        </div>
+    </section>
+    <section class="working">
+        <h1>How Cway works?</h1>
+        <div class="how-it-works">
+            <div class="work-step">
+                <div class="work-img">
+                    <img src="./Assets/imgs/account.png" alt="account">
+                    <h2>Create Account</h2>
+                    <p>Register, get verification and log in 
+                        to cway </p>
+                </div>
+            </div>
+            <div class="work-step">
+                <div class="">
+                    <img class="arrow" src="./Assets/imgs/arrow.png" alt="account">
+                </div>
+            </div>
+            <div class="work-step">
+                <div class="work-img">
+                    <img src="./Assets/imgs/loadfund.png" alt="account">
+                    <h2>Load Fund</h2>
+                    <p>Load fund with our partner banks 
+                        or offline methods</p>
+                </div>
+            </div>
+            <div class="work-step">
+                <div class="">
+                    <img class="arrow" src="./Assets/imgs/arrow.png" alt="account">
+                </div>
+            </div>
+            <div class="work-step">
+                <div class="work-img">
+                    <img src="./Assets/imgs/paybills.png" alt="account">
+                    <h2>Pay Bills</h2>
+                    <p>You are all set to pay, send or
+                        accept payment methods</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="team-cards">
+            <img src="./Assets/imgs/aadi.png">
+            <p>Aaditya Deep</p>
+        </div>
+        <div class="team-cards">
+            <img src="./Assets/imgs/suidiska.jpg">
+            <p>Sudiska Shrestha</p>
+        </div>
+        <div class="team-cards">
+            <img src="./Assets/imgs/rejan.jpg">
+            <p>Rejan Dhungana</p>
+        </div>
+        <div class="team-cards">
+            <img src="./Assets/imgs/bali.png">
+            <p>Bali Kumar Wad</p>
+        </div>
+    </section>
+<script src="./script.js"></script>
+</body>
+
+</html>
